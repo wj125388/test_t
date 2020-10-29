@@ -6,7 +6,7 @@ import sys
 
 from gxa1023.db.custemordb.custemor_dboper import Custemor_dboper
 
-sys.path.append('C:\\Users\\Administrator\\PycharmProjects\\pythonProject1')
+sys.path.append('E:\\.jenkins\\workspace\\gxa')
 from gxa1023.webpage.usermanager.loginpage import LoginPage
 from gxa1023.util.excel_oper import Excel_e
 
@@ -52,14 +52,14 @@ class CustomerPage:
         self.lp.bo.send_ks(self.lp.yp.get_locator('CustomerPage', 'birthday'),birth)
         self.lp.log.set_mes('输入出生日期', 'info')
         # self.log.set_mes('出生日期:' + '2020-02-02 22:22:22', 'info')
-        # 输入创建人
+        # 输入创建�?
         self.lp.bo.send_ks(self.lp.yp.get_locator('CustomerPage', 'addman'),addman)
-        self.lp.log.set_mes('输入创建人', 'info')
-        # self.log.set_mes('创建人:' + '马云', 'info')
+        self.lp.log.set_mes('输入创建�?, 'info')
+        # self.log.set_mes('创建�?' + '马云', 'info')
         # 点击添加
         self.lp.bo.click_ele(self.lp.yp.get_locator('CustomerPage', 'add_submit'))
 
-        # self.login.log('获取弹出框内容','info')
+        # self.login.log('获取弹出框内�?,'info')
 
     def get_add_success_alert(self):
 
@@ -89,7 +89,7 @@ class CustomerPage:
 
 # if __name__ == '__main__':
 #     cp = CustomerPage()
-#     cp.customer_add(id='1001',name='吴志伟')
+#     cp.customer_add(id='1001',name='吴志�?)
 
 
 
