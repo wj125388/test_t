@@ -1,0 +1,17 @@
+LoginPage:
+  username: userNum
+  password: userPw
+  submit: in1
+CustomerPage:
+  topFrame: topFrame
+  CustomerInfo: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/table/tbody/tr/td/div/a
+  mainFrame: mainFrame
+  add_button: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+  name: /html/body/form/table[1]/tbody/tr[2]/td[2]/input
+  e-mail: /html/body/form/table[1]/tbody/tr[4]/td[4]/input
+  birthday: //*[@id="customerBirthday"]
+  addman: /html/body/form/table[1]/tbody/tr[8]/td[2]/input
+  add_submit: /html/body/form/table[2]/tbody/tr/td[2]/input
+  modify_button: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[13]/div/span/a[1]
+  addr: /html/body/form/table[1]/tbody/tr[6]/td[4]/input
+  modify_submit: /html/body/form/table[2]/tbody/tr/td[2]/input
